@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #f7f7f7;
+}
+header{
+    height: 25vh;
+    background-color: #f7f7f7;
+    display: flex;
+}
+.nav{
+    width: 100vw;
+}
+.navbarcontainer{
+    height: 2vh;
+    background-color: #006341;
+    width: 100vw;
+}
+.container {
+    width: 100vw;
+    height: 7vh;
+    position: relative;
+    padding-top: 12px;
+    background-color: #f7f7f7;
+    z-index: 2;
+    display: flex;
+}
+.container img{
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+.location{
+    display: flex;
+    margin-left: 520px;
+    margin-top: 15px;
+    display: flex;
+}
+.location img{
+    color: #006341;
+    height: 17px;
+    margin-top: -10px;
+    margin-right: 15px;
+}
+.menu_bar{
+    height: 17px;
+    width: 22px;
+}
+.menu_bar img{
+    height: 17px;
+    width: 22px;
+    display: none;
+}
+/*.menu_bar img{
+    display: none;
+}*/
+.find.a.store{
+    font-size: 2vh;
+    margin-top: 7px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+}
+.find.a.store a{
+    text-decoration: none;
+    color: #5b5959;
+}
+.find.a.store a:hover{
+    color: #5b5959;
+}
+ul{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.starbucksnav li{
+    list-style: none;
+    font: 14px Lato,Helvetica,Arial,sans-serif;
+    padding: 1em .65em;
+    text-decoration: none;
+}
+.starbucksnav{
+    margin-top: 30px;
+}
+.starbucksnav li a{
+    text-decoration: none;
+    color: #242221;
+    font: 14px Lato,Helvetica,Arial,sans-serif;
+    padding: 1em .65em;
+}
+.starbucksnav li a:hover{
+    color: white;
+}
+.starbucksnav li:hover{
+    background-color: #006341;
+}
+.firstimg{
+    background-color: #012d1e;
+}
+.firstimg img{
+    height: 70vh;
+    width: 100vw;
+}
+.secondimg img{
+    width: 100vw
+}
+.secondimg{
+    background-color:#012d1e;
+
+}
+.thirdimg img{
+    width: 100vw;
+}
+.thirdimg{
+background-color: #b9e4f4;
+}
+.fourthimg img{
+    width: 100vw;
+    height: 70vh;
+}
+.fourthimg{
+    background-color: #0e382c;
+}
+.fifthimg img{
+    width: 100vw;
+    height: 70vh;
+}
+.fifthimg{
+    padding-top: 4px;
+    background-color: white;
+}
+.container2{
+    background-color: #f0f0f0 ;
+    display: grid;
+    height: 70vh;
+    width: 100vw;
+}
+.container2 img{
+    width: 25vw;
+    height: 40vh;
+    padding: 80px 200px;
+    
+}
+.container_text{
+   display: grid;
+   width: 40vw;
+   justify-content: right;
+   position: absolute;
+   margin: 175px 850px;
+}
+.container_text h2{
+    margin-bottom: 20px;
+}
+.container_text p{
+    display: block;
+    font-family: 'Crete Round',Georgia,'Times New Roman',serif;
+    font-style: italic;
+    font-size: 17px;
+}
+.container3{
+    display: grid;
+    background-color: white;
+    width: 100vw;
+    height: 70vh;
+    align-items: center;
+}
+.container_text2{
+    width: 40vw;
+    position: absolute;
+    margin-left: 180px;
+}
+.container_text2 p{
+    font-size: 17px;
+    font-family: 'Crete Round',Georgia,'Times New Roman',serif;
+    font-style: italic;
+}
+.container_text2 h2{
+    margin-bottom: 20px;
+}
+.image2{
+    width: 60vw;
+    position: relative;
+    margin: 50px 614px;
+}
+.image2 img{
+    margin-left: 200px;
+}
+.upperfooter{
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+.all_logo{
+    width: 50vw;
+    position: absolute;
+    margin-left: 100px;
+}
+.upperfooter img{
+    width: 30px;
+    padding: 10px;
+}
+.lowerfooter{
+    /* display: grid;*/
+    width: 100vw;
+    height: 23vh;
+    background-color: #f7f7f7;
+    } 
+.lowerfooter h3{
+    display: block;
+    height: 20px;
+    margin: 0px 12px;
+    padding: 18px 0px;
+}
+.lowerfooter a{
+    display: block;
+    height: 15px;
+    list-style: none;
+    text-decoration: none;
+    color: #5b5959;
+    /* margin-top: 40px; */
+    /* margin-bottom: 60px; */
+}
+.lowerfooter li{
+    margin: 15px 0px 20px;
+}
+.lowerfooter li:hover{
+    color: #464545;
+    background-color: #f7f7f7;
+}
+ol{
+    margin: 0px 12px 24px;
+}
+.first{
+    width: 8vw;
+display: block;
+margin-left: 150px;
+}
+.second{
+    width: 220px;
+    height: 116px;
+    display: block;
+    margin: -140px 0px 0px 450px;
+}
+.third{
+    width: 220px;
+    height: 116px;
+    display: block;
+    margin: -116px 0px 0px 700px;
+}
+.last{
+    position: relative;
+    display: flex;
+    width: 980px;
+    height: 15px;
+    margin: 0px 0px 0px 175px;
+    background-color: #f7f7f7;
+}
+.last li{
+    text-decoration: none;
+    list-style: none;
+    border-right: 1px solid #464545;
+    padding: 0px 15px;
+    font-size: 10px;
+}
+.last a{
+    text-decoration: none;
+    color: #464545;
+}
+.end{
+    position: relative;
+    display: flex;
+    height: 3vh;
+    font-size: 10px;
+    color: #464545;
+    margin: 25px 0px 0px 185px;
+    background-color: #f7f7f7;
+    width: 50vw;
+}
+.starbucks_text{
+    width: 121.93px;
+
+}
+.starbucks_text h1{
+    transform: rotate(90deg);
+    font-size: large;
+}
+.lowerfooter h1{
+    position: absolute;
+display: grid;
+margin: 0px 0px 0px 1300px;
+}
+.last a:hover{
+    color:#242221;
+}
+@media only screen and (max-width: 428px){
+    body{
+        width: 428px;
+        background-color: #f7f7f7;
+    }
+    header{
+        height: 10vh;
+    }
+}
+/*@media only screen and (max-width: 428px){
+    nav{
+        height: 10px;
+        width: 428;
+    }
+}
+*/
+@media only screen and (max-width: 428px){
+    .navbarcontainer{
+        height: 0.5vh;
+    background-color: #006341;
+    width: 428px;
+    }
+}
+@media only screen and (max-width: 428px){
+.container {
+    width: 428px;
+    height: 0vh;
+    position: relative;
+    padding-top: 12px;
+    background-color: #f7f7f7;
+    z-index: 2;
+    display: flex;
+}
+.find.a.store a{
+   display: none;
+
+}
+.container img{
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.location img{
+    display: none;
+}
+}
+@media only screen and (max-width:428px){
+    .menu_bar{
+        height: 17px;
+        width: 22px;
+        margin: 20px 380px;
+    }
+    .menu_bar img{
+        height: 17px;
+        width: 22px;
+        display: block;
+    }
+}
+@media only screen and (max-width:428px){
+    .firstimg img{
+        height: 25vh;
+        width: 100vw;
+    }
+    .secondimg img {
+        width: 100vw;
+        height: 40vh;
+      }
+      .thirdimg img {
+        width: 100vw;
+        height: 25vh;
+      }
+      .fourthimg img {
+        width: 100vw;
+        height: 25vh;
+      }
+      .fifthimg img {
+        width: 100vw;
+        height: 25vh;
+      }
+    }
+@media (max-width:428px){
+    .starbucksnav{
+        display: none;
+    }
+    .starbucksnav ul{
+        display: block;
+    }
+}
+@media only screen and (max-width:428px){
+    .container2{
+            width: 100vw;
+            height: 30vh;
+          }
+          .container_text{
+            display: grid;
+            width: 100vw;
+            justify-content: right;
+            position: absolute;
+            margin: 180px 5px;
+            font-size: xx-small;
+          }
+          .container2 img {
+            width: 32vw;
+             height: 12vh;
+            padding: 45px 155px;
+    }
+}
+@media only screen and (max-width:428px){
+    .container3 {
+        display: grid;
+        background-color: white;
+        width: 100vw;
+        height: 30vh;
+      }
+      .container_text2 {
+        width: 40vw;
+        position: absolute;
+        margin-left: 5px;
+        font-size: xx-small;
+      }
+      .image2 {
+        width: 60vw;
+        position: relative;
+        margin: 50px 200px;
+      }
+      .image2 img {
+        margin-left: 8px;
+        width: 45vw;
+}
+}
+@media only screen and (max-width:428px){
+    .upperfooter{
+        height: 7vh;
+        width: 100vw;
+    }
+    .all_logo {
+        margin-left: 5px;
+      }
+      .upperfooter img {
+        width: 20px;
+        padding: 10px;
+      }
+    }
+    @media only screen and (max-width:428px){
+        .lowerfooter {
+            display: grid;
+            width: 100vw;
+            height: 20vh;
+            background-color: #f7f7f7;
+        }
+        .lowerfooter h1 {
+            position: absolute;
+            display: grid;
+            margin: -103px 0px 0px 347px;
+          }
+        .first {
+            width: 20vw;
+            display: block;
+            margin-left: 15px;
+            font-size: 10px;
+          }
+          .second {
+            width: 220px;
+            height: 116px;
+            display: block;
+            margin: -152px 0px 0px 130px;
+            font-size: 10px;
+          }
+          .third {
+            width: 220px;
+            height: 116px;
+            display: block;
+            margin: -163px 0px 0px 270px;
+            font-size: 10px;
+          }
+          .last {
+            position: relative;
+            display: flex;
+            width: 978px;
+            height: 15px;
+            margin: -25px 0px 0px -10px;
+            background-color: #f7f7f7;
+          }
+          .end {
+            position: relative;
+            display: flex;
+            height: 3vh;
+            font-size: 10px;
+            color: #464545;
+            margin: 22px 0px 0px 105px;
+            background-color: #f7f7f7;
+            width: 53vw;
+          }
+    }
